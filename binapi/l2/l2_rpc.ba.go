@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"io"
 
-	memclnt "github.com/equinixmetal/govpp/binapi/memclnt"
 	api "github.com/mvonfinckenstein/govpp/api"
+	memclnt "github.com/mvonfinckenstein/govpp/binapi/memclnt"
 )
 
 // RPCService defines RPC service l2.

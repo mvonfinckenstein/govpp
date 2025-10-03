@@ -15,8 +15,6 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/docker/cli v28.4.0+incompatible h1:RBcf3Kjw2pMtwui5V0DIMdyeab8glEw5QY0UUU4C9kY=
 github.com/docker/cli v28.4.0+incompatible/go.mod h1:JLrzqnKDaYBop7H2jaqPtU4hHvMKP+vjCwu2uszcLI8=
-github.com/equinixmetal/govpp v0.0.0-20250924041303-65950539aa43 h1:Fu8wmbcTsexbAm2vInVUIr8V4h1Qgu7pQb8IivUO/TE=
-github.com/equinixmetal/govpp v0.0.0-20250924041303-65950539aa43/go.mod h1:Jh3ffSHQOsFHO7ZPXKG17qWdG0ShJqCTSInU6E1jjnQ=
 github.com/fatih/color v1.15.0 h1:kOqh6YHBtK8aywxGerMG2Eq3H6Qgoqeo13Bk2Mv/nBs=
 github.com/fatih/color v1.15.0/go.mod h1:0h5ZqXfHYED7Bhv2ZJamyIOUej9KtShiJESRwBDUSsw=
 github.com/felixge/fgprof v0.9.3 h1:VvyZxILNuCiUCSXtPtYmmtGvb65nqXh2QFWc0Wpf2/g=

@@ -7,7 +7,6 @@ toolchain go1.24.0
 require (
 	github.com/bennyscetbun/jsongo v1.1.2
 	github.com/docker/cli v28.4.0+incompatible
-	github.com/equinixmetal/govpp v0.0.0-20250924041303-65950539aa43
 	github.com/fsnotify/fsnotify v1.9.0
 	github.com/ftrvxmtrx/fd v0.0.0-20150925145434-c6d800382fff
 	github.com/gookit/color v1.6.0
