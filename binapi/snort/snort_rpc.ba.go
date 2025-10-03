@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	api "go.fd.io/govpp/api"
+	api "github.com/mvonfinckenstein/govpp/api"
 )
 
 // RPCService defines RPC service snort.

@@ -24,7 +24,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"go.fd.io/govpp/api"
+	"github.com/mvonfinckenstein/govpp/api"
 )
 
 type Stream struct {

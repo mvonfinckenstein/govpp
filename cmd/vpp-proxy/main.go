@@ -19,14 +19,14 @@ import (
 	"flag"
 	"log"
 
-	"go.fd.io/govpp/adapter/socketclient"
-	"go.fd.io/govpp/adapter/statsclient"
-	"go.fd.io/govpp/api"
-	interfaces "go.fd.io/govpp/binapi/interface"
-	"go.fd.io/govpp/binapi/vlib"
-	"go.fd.io/govpp/binapi/vpe"
-	_ "go.fd.io/govpp/core"
-	"go.fd.io/govpp/proxy"
+	"github.com/mvonfinckenstein/govpp/adapter/socketclient"
+	"github.com/mvonfinckenstein/govpp/adapter/statsclient"
+	"github.com/mvonfinckenstein/govpp/api"
+	interfaces "github.com/mvonfinckenstein/govpp/binapi/interface"
+	"github.com/mvonfinckenstein/govpp/binapi/vlib"
+	"github.com/mvonfinckenstein/govpp/binapi/vpe"
+	_ "github.com/mvonfinckenstein/govpp/core"
+	"github.com/mvonfinckenstein/govpp/proxy"
 )
 
 var (

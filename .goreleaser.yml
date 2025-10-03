@@ -24,12 +24,12 @@ builds:
       - -trimpath
     ldflags:
       - -s -w
-      - -X go.fd.io/govpp/version.version=v{{.Version}}
-      - -X go.fd.io/govpp/version.commit={{.FullCommit}}
-      - -X go.fd.io/govpp/version.branch={{.Branch}}
-      - -X go.fd.io/govpp/version.buildStamp={{.Timestamp}}
-      - -X go.fd.io/govpp/version.buildUser={{if index .Env "USER"}}{{.Env.USER}}{{else}}goreleaser{{end}}
-      - -X go.fd.io/govpp/version.buildHost={{if index .Env "HOSTNAME"}}{{.Env.HOSTNAME}}{{else}}goreleaser{{end}}
+      - -X github.com/mvonfinckenstein/govpp/version.version=v{{.Version}}
+      - -X github.com/mvonfinckenstein/govpp/version.commit={{.FullCommit}}
+      - -X github.com/mvonfinckenstein/govpp/version.branch={{.Branch}}
+      - -X github.com/mvonfinckenstein/govpp/version.buildStamp={{.Timestamp}}
+      - -X github.com/mvonfinckenstein/govpp/version.buildUser={{if index .Env "USER"}}{{.Env.USER}}{{else}}goreleaser{{end}}
+      - -X github.com/mvonfinckenstein/govpp/version.buildHost={{if index .Env "HOSTNAME"}}{{.Env.HOSTNAME}}{{else}}goreleaser{{end}}
 
 archives:
   - id: govpp-archive

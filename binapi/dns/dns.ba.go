@@ -11,8 +11,8 @@
 package dns
 
 import (
-	api "go.fd.io/govpp/api"
-	codec "go.fd.io/govpp/codec"
+	api "github.com/mvonfinckenstein/govpp/api"
+	codec "github.com/mvonfinckenstein/govpp/codec"
 )
 
 // This is a compile-time assertion to ensure that this generated file

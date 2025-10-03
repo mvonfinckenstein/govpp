@@ -25,16 +25,16 @@ import (
 	"time"
 
 	"github.com/mitchellh/go-ps"
+	"github.com/mvonfinckenstein/govpp/binapi/vpe"
 	"github.com/sirupsen/logrus"
-	"go.fd.io/govpp/binapi/vpe"
 
-	"go.fd.io/govpp/adapter/socketclient"
-	"go.fd.io/govpp/adapter/statsclient"
-	govppapi "go.fd.io/govpp/api"
-	"go.fd.io/govpp/binapi/memclnt"
-	"go.fd.io/govpp/binapi/vlib"
-	govppcore "go.fd.io/govpp/core"
-	"go.fd.io/govpp/test/vpptesting/vpplauncher"
+	"github.com/mvonfinckenstein/govpp/adapter/socketclient"
+	"github.com/mvonfinckenstein/govpp/adapter/statsclient"
+	govppapi "github.com/mvonfinckenstein/govpp/api"
+	"github.com/mvonfinckenstein/govpp/binapi/memclnt"
+	"github.com/mvonfinckenstein/govpp/binapi/vlib"
+	govppcore "github.com/mvonfinckenstein/govpp/core"
+	"github.com/mvonfinckenstein/govpp/test/vpptesting/vpplauncher"
 )
 
 var (

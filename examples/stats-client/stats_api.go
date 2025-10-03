@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"go.fd.io/govpp/adapter"
-	"go.fd.io/govpp/adapter/statsclient"
-	"go.fd.io/govpp/api"
-	"go.fd.io/govpp/core"
+	"github.com/mvonfinckenstein/govpp/adapter"
+	"github.com/mvonfinckenstein/govpp/adapter/statsclient"
+	"github.com/mvonfinckenstein/govpp/api"
+	"github.com/mvonfinckenstein/govpp/core"
 )
 
 // ------------------------------------------------------------------

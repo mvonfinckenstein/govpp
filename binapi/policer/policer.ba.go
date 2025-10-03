@@ -13,8 +13,8 @@ package policer
 import (
 	interface_types "github.com/equinixmetal/govpp/binapi/interface_types"
 	policer_types "github.com/equinixmetal/govpp/binapi/policer_types"
-	api "go.fd.io/govpp/api"
-	codec "go.fd.io/govpp/codec"
+	api "github.com/mvonfinckenstein/govpp/api"
+	codec "github.com/mvonfinckenstein/govpp/codec"
 )
 
 // This is a compile-time assertion to ensure that this generated file

@@ -5,7 +5,7 @@ package adl
 import (
 	"context"
 
-	api "go.fd.io/govpp/api"
+	api "github.com/mvonfinckenstein/govpp/api"
 )
 
 // RPCService defines RPC service adl.

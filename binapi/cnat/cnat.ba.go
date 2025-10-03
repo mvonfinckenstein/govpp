@@ -21,8 +21,8 @@ import (
 	ip "github.com/equinixmetal/govpp/binapi/ip"
 	ip_types "github.com/equinixmetal/govpp/binapi/ip_types"
 	_ "github.com/equinixmetal/govpp/binapi/mfib_types"
-	api "go.fd.io/govpp/api"
-	codec "go.fd.io/govpp/codec"
+	api "github.com/mvonfinckenstein/govpp/api"
+	codec "github.com/mvonfinckenstein/govpp/codec"
 )
 
 // This is a compile-time assertion to ensure that this generated file

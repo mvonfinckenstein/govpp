@@ -16,8 +16,8 @@ import (
 	ip_types "github.com/equinixmetal/govpp/binapi/ip_types"
 	ipsec_types "github.com/equinixmetal/govpp/binapi/ipsec_types"
 	tunnel_types "github.com/equinixmetal/govpp/binapi/tunnel_types"
-	api "go.fd.io/govpp/api"
-	codec "go.fd.io/govpp/codec"
+	api "github.com/mvonfinckenstein/govpp/api"
+	codec "github.com/mvonfinckenstein/govpp/codec"
 )
 
 // This is a compile-time assertion to ensure that this generated file

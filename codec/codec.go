@@ -19,7 +19,7 @@ import (
 	"errors"
 	"fmt"
 
-	"go.fd.io/govpp/api"
+	"github.com/mvonfinckenstein/govpp/api"
 )
 
 var DefaultCodec = new(MsgCodec)

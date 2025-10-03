@@ -26,17 +26,17 @@ import (
 	"sync"
 	"time"
 
-	"go.fd.io/govpp"
-	"go.fd.io/govpp/adapter/socketclient"
-	"go.fd.io/govpp/api"
-	interfaces "go.fd.io/govpp/binapi/interface"
-	"go.fd.io/govpp/binapi/interface_types"
-	"go.fd.io/govpp/binapi/ip"
-	"go.fd.io/govpp/binapi/ip_types"
-	"go.fd.io/govpp/binapi/mactime"
-	"go.fd.io/govpp/binapi/memclnt"
-	"go.fd.io/govpp/binapi/vpe"
-	"go.fd.io/govpp/core"
+	"github.com/mvonfinckenstein/govpp"
+	"github.com/mvonfinckenstein/govpp/adapter/socketclient"
+	"github.com/mvonfinckenstein/govpp/api"
+	interfaces "github.com/mvonfinckenstein/govpp/binapi/interface"
+	"github.com/mvonfinckenstein/govpp/binapi/interface_types"
+	"github.com/mvonfinckenstein/govpp/binapi/ip"
+	"github.com/mvonfinckenstein/govpp/binapi/ip_types"
+	"github.com/mvonfinckenstein/govpp/binapi/mactime"
+	"github.com/mvonfinckenstein/govpp/binapi/memclnt"
+	"github.com/mvonfinckenstein/govpp/binapi/vpe"
+	"github.com/mvonfinckenstein/govpp/core"
 )
 
 var (

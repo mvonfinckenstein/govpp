@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"testing"
 
-	"go.fd.io/govpp/api"
-	"go.fd.io/govpp/binapi/vpe"
-	"go.fd.io/govpp/core"
-	"go.fd.io/govpp/test/vpptesting"
+	"github.com/mvonfinckenstein/govpp/api"
+	"github.com/mvonfinckenstein/govpp/binapi/vpe"
+	"github.com/mvonfinckenstein/govpp/core"
+	"github.com/mvonfinckenstein/govpp/test/vpptesting"
 )
 
 func TestTrace(t *testing.T) {

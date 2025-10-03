@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"go.fd.io/govpp/test/vpptesting"
+	"github.com/mvonfinckenstein/govpp/test/vpptesting"
 )
 
 func TestGoMemifPoll(t *testing.T) {

@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"time"
 
-	"go.fd.io/govpp/api"
-	"go.fd.io/govpp/core"
+	"github.com/mvonfinckenstein/govpp/api"
+	"github.com/mvonfinckenstein/govpp/core"
 )
 
 type Client struct {

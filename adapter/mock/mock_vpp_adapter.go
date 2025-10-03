@@ -22,10 +22,10 @@ import (
 	"reflect"
 	"sync"
 
-	"go.fd.io/govpp/adapter"
-	"go.fd.io/govpp/adapter/mock/binapi"
-	"go.fd.io/govpp/api"
-	"go.fd.io/govpp/codec"
+	"github.com/mvonfinckenstein/govpp/adapter"
+	"github.com/mvonfinckenstein/govpp/adapter/mock/binapi"
+	"github.com/mvonfinckenstein/govpp/api"
+	"github.com/mvonfinckenstein/govpp/codec"
 )
 
 type replyMode int

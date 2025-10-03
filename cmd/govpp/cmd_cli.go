@@ -26,10 +26,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"go.fd.io/govpp"
-	"go.fd.io/govpp/adapter/socketclient"
-	"go.fd.io/govpp/binapi/vlib"
-	"go.fd.io/govpp/core"
+	"github.com/mvonfinckenstein/govpp"
+	"github.com/mvonfinckenstein/govpp/adapter/socketclient"
+	"github.com/mvonfinckenstein/govpp/binapi/vlib"
+	"github.com/mvonfinckenstein/govpp/core"
 )
 
 // TODO:

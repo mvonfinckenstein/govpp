@@ -18,10 +18,10 @@ import (
 	"io"
 	"testing"
 
-	interfaces "go.fd.io/govpp/binapi/interface"
-	"go.fd.io/govpp/binapi/memclnt"
-	"go.fd.io/govpp/binapi/vpe"
-	"go.fd.io/govpp/test/vpptesting"
+	interfaces "github.com/mvonfinckenstein/govpp/binapi/interface"
+	"github.com/mvonfinckenstein/govpp/binapi/memclnt"
+	"github.com/mvonfinckenstein/govpp/binapi/vpe"
+	"github.com/mvonfinckenstein/govpp/test/vpptesting"
 )
 
 // TestVersion tests getting VPP version works.

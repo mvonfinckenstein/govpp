@@ -25,10 +25,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"go.fd.io/govpp/adapter"
-	"go.fd.io/govpp/api"
-	"go.fd.io/govpp/codec"
-	"go.fd.io/govpp/core/genericpool"
+	"github.com/mvonfinckenstein/govpp/adapter"
+	"github.com/mvonfinckenstein/govpp/api"
+	"github.com/mvonfinckenstein/govpp/codec"
+	"github.com/mvonfinckenstein/govpp/core/genericpool"
 )
 
 const (

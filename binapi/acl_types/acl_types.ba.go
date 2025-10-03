@@ -16,7 +16,7 @@ import (
 
 	ethernet_types "github.com/equinixmetal/govpp/binapi/ethernet_types"
 	ip_types "github.com/equinixmetal/govpp/binapi/ip_types"
-	api "go.fd.io/govpp/api"
+	api "github.com/mvonfinckenstein/govpp/api"
 )
 
 // This is a compile-time assertion to ensure that this generated file

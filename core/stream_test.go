@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/mvonfinckenstein/govpp/adapter/mock"
 	. "github.com/onsi/gomega"
-	"go.fd.io/govpp/adapter/mock"
 )
 
 type streamCtx struct {

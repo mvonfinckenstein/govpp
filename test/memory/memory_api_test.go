@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	interfaces "go.fd.io/govpp/binapi/interface"
-	"go.fd.io/govpp/binapi/vpe"
-	"go.fd.io/govpp/test/vpptesting"
+	interfaces "github.com/mvonfinckenstein/govpp/binapi/interface"
+	"github.com/mvonfinckenstein/govpp/binapi/vpe"
+	"github.com/mvonfinckenstein/govpp/test/vpptesting"
 	"golang.org/x/text/language"
 	"golang.org/x/text/message"
 )

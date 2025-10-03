@@ -29,8 +29,8 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 	"github.com/ftrvxmtrx/fd"
+	"github.com/mvonfinckenstein/govpp/adapter"
 	logger "github.com/sirupsen/logrus"
-	"go.fd.io/govpp/adapter"
 )
 
 const (

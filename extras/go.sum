@@ -35,8 +35,8 @@ github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/
 github.com/stretchr/testify v1.7.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.8.0 h1:pSgiaMZlXftHpm5L7V1+rVB+AZJydKsMxsQBIJw4PKk=
 github.com/stretchr/testify v1.8.0/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO+kdMU+MU=
-go.fd.io/govpp v0.10.0 h1:lL93SbqOILjON2pMvazrlHRekGYTRy0Qmj57RuAkxR0=
-go.fd.io/govpp v0.10.0/go.mod h1:5m3bZM9ck+2EGC2O3ASmSSJAaoouyOlVWtiwj5BdCv0=
+github.com/mvonfinckenstein/govpp v0.10.0 h1:lL93SbqOILjON2pMvazrlHRekGYTRy0Qmj57RuAkxR0=
+github.com/mvonfinckenstein/govpp v0.10.0/go.mod h1:5m3bZM9ck+2EGC2O3ASmSSJAaoouyOlVWtiwj5BdCv0=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
 golang.org/x/net v0.20.0 h1:aCL9BSgETF1k+blQaYUBx9hJ9LOGP3gAVemcZlf1Kpo=

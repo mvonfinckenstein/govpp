@@ -17,7 +17,7 @@ import (
 	_ "github.com/equinixmetal/govpp/binapi/interface_types"
 	ip_types "github.com/equinixmetal/govpp/binapi/ip_types"
 	tunnel_types "github.com/equinixmetal/govpp/binapi/tunnel_types"
-	api "go.fd.io/govpp/api"
+	api "github.com/mvonfinckenstein/govpp/api"
 )
 
 // This is a compile-time assertion to ensure that this generated file

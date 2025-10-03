@@ -20,12 +20,12 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"go.fd.io/govpp/adapter/mock"
-	"go.fd.io/govpp/api"
-	interfaces "go.fd.io/govpp/binapi/interface"
-	"go.fd.io/govpp/binapi/interface_types"
-	"go.fd.io/govpp/binapi/memif"
-	"go.fd.io/govpp/binapi/vpe"
+	"github.com/mvonfinckenstein/govpp/adapter/mock"
+	"github.com/mvonfinckenstein/govpp/api"
+	interfaces "github.com/mvonfinckenstein/govpp/binapi/interface"
+	"github.com/mvonfinckenstein/govpp/binapi/interface_types"
+	"github.com/mvonfinckenstein/govpp/binapi/memif"
+	"github.com/mvonfinckenstein/govpp/binapi/vpe"
 )
 
 type testCtx struct {

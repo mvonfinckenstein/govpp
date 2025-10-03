@@ -5,7 +5,7 @@ package auto_sdl
 import (
 	"context"
 
-	api "go.fd.io/govpp/api"
+	api "github.com/mvonfinckenstein/govpp/api"
 )
 
 // RPCService defines RPC service auto_sdl.

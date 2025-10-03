@@ -8,7 +8,7 @@ import (
 	"io"
 
 	memclnt "github.com/equinixmetal/govpp/binapi/memclnt"
-	api "go.fd.io/govpp/api"
+	api "github.com/mvonfinckenstein/govpp/api"
 )
 
 // RPCService defines RPC service ip_neighbor.
